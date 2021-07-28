@@ -1,0 +1,307 @@
+@media  screen and (max-width: 1100px) {
+  /* body{
+      /* overflow: hidden;
+  } */
+    header{
+       flex-direction: column;
+ background-color: #49a5e8;
+       
+       height: 82px;
+   }
+    .right{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6vh;
+    position: relative;
+bottom: 1.4vw;
+   }
+    button.search{
+       display: none;
+    }
+    input.boxtext{
+        width: 28vw;
+    }
+    header .Someit{
+        text-align: center;
+        position: relative;
+        bottom: 0vh;
+    }
+    .Someit-text{
+        font-size: 5vh;
+color: wheat;
+text-decoration: none;
+    }
+    .right-form{
+        margin: 3vh 3vw;
+    }
+    .frontimage{
+        display: none;
+    }
+    .leftbox{
+        font-size: 2.5vh;
+    }
+    div.navs{
+        display: flex;
+flex-direction: column;
+margin-top: 3vh;
+    }
+    .firstchild img{
+        height: 40vh;
+    }
+    .secondchild{
+        display: flex;
+margin-left: 2vw;
+flex-direction: column;
+font-size: 16px;
+    }
+    .bformright{
+        margin: 0vh 28vw;
+    height: 9.5vh;
+border-radius: 1vh;
+border: 2px solid gray;
+position: relative;
+bottom: 2vh;
+margin-bottom: 20vh;
+width: 36.5%;
+    }
+    .inputbox{
+        font-family: var(--font-3);
+padding: 0.4vh;
+color: white;
+    }
+    .h1-margin{
+        width: 92vw;
+margin: 2vh 0vw;
+font-family: var(--font-3);
+font-size: 3vh;
+padding: 0.4vh;
+    }
+    div.logos{
+        position: relative;
+        left: 5vh;
+        top: -4vh;
+        margin: 0;
+    }
+    div.text{
+        font-size: 2.6vh;
+    }
+    div.logos img{
+        margin: 0vh 1vw;
+height: 2.4vh;
+    }
+    textarea{
+        font-family: var(--font-3);
+width: 48%;
+height: 27vh;
+margin-top: 1vh;
+font-size: 2.4vh;
+padding: 1vh;
+    }
+    .zezyne{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0vh 16vw;
+        left: 5vw;
+    }
+    div.secondbox{
+        margin: 0vh 20vw;
+
+    }
+    div.navs1{
+        display: flex;
+align-items: center;
+width: 54vw;
+justify-content: center;
+flex-direction: column;
+    }
+    .secondchild1{
+        display: flex;
+margin-left: -6vw;
+flex-direction: column;
+font-size: 16px;
+width: 50vw;
+    }
+    .firstchild1 img{
+        position: relative;
+        height: 28vw;
+    }
+    .firstchild1{
+        height: unset;
+width: unset;
+position: relative;
+right: 1vh;
+
+    }
+section{
+    background-color: seashell;
+}
+div.cyclos{
+    margin: 0vh -5vw;
+    text-align: center;
+}
+.cyclos{
+    height: unset;
+}
+div.secondchild1{
+    width: 60vw;
+}
+.lowercyclos{
+    left: 4vw;
+}
+header .left ul{
+    font-size: 20px;
+    position: relative;
+bottom: 2vw;
+}
+p.grey{
+    position: relative;
+left: 2vw;
+width: unset;
+}
+ div .Fast-and-Furious-6{
+        right: unset;
+        }
+        div .Deadpool{
+            height: unset;
+            width: 38vw;
+        }
+        div .Jumanji {
+            right: unset;
+        }
+        div .Kingsman-The-Secret-Service{
+            right: unset;
+        }
+        div .Captain-America{
+            right: unset;
+        }
+        div .The-martian{
+            height: unset;
+            width: 38vw;
+        }
+        div .spiderman{
+            height: 28vw;
+        }
+        div .TheRoadWithin{
+            right: unset;
+        }
+        div .Loki{
+            right: unset;
+        }
+        div.medium{
+            margin-bottom: 0vw;
+        }
+        div.medium-spans{
+            margin-bottom: -6.5vw;
+        }
+
+    }
+
+    @media  screen and (max-width: 800px) {
+        div.visual{
+            background-size: 270vh;
+background-repeat: no-repeat;
+color: black;
+        }
+       .leftbox{
+        font-size: 2.5vh;
+       }
+        .lowercyclos{
+        background-color: seashell;
+margin-top: -4vh;
+text-align: center;
+width: 64vw;
+position: relative;
+    }
+    .topic{
+        margin: 7vh 0vh 0vh 0vh;
+    padding-top: 3vh;}
+    
+    div.upmethane{
+        display: flex;
+position: relative;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+    }
+    div.navs{
+        display: flex;
+align-items: center;
+width: 54vw;
+justify-content: center;
+    }
+    .firstchild img{
+        height: 40vw;
+        width: unset;
+    }
+    .secondchild{
+        display: flex;
+margin-left: 2vw;
+flex-direction: column;
+font-size: 16px;
+    }
+   
+}
+
+
+@media screen and (max-width: 650px) {
+    .bformright{
+        margin: 0vh 2.1vw;
+    margin-bottom: 0vh;
+    margin-left: 2.1vw;
+margin-bottom: 40vh;
+position: relative;
+top: 17px;
+width: 36.99%;
+/* width: 38.99%; */
+background-color: #1f7bf0;
+font-size: 17px;
+margin-left: 27.9%;
+    }
+    button.search{
+       display: none;
+}
+}
+
+@media screen and (max-width: 420px) {
+    ul{
+        font-size: 6.1vw;
+    }
+.right{
+    padding-left: 2vh;
+}
+input.boxtext{
+    padding-left: 2vh;
+}
+button.search{
+    display: none;
+}
+textarea{
+    font-family: var(--font-3);
+width: 48%;
+height: 27vh;
+margin-top: 1vh;
+font-size: 2.4vh;
+padding: 1vh;
+}
+.inputbox{
+    font-size: 2.3vh;
+}
+.bformright{
+    margin-left: 28.9%;
+}
+
+}
+@media screen and (max-width: 620px) {
+   button.search{
+       color: unset;
+       background-color: unset;
+   }
+   input.boxtext{
+    padding-left: 1vh;
+    width: 41vw;
+   }
+}

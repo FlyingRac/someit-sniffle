@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-3);
+}
+header{
+    display: flex;
+    background-color: rgb(146, 117, 132);
+    padding: 12vh;
+    justify-content: space-around;
+}
+header .left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--font-1);
+    font-size: 4vh;
+}
+header .Someit{
+    position: relative;
+bottom: 5vh;
+}
+header .Someit-text{
+    font-size: 5vh;
+color: wheat;
+text-decoration: none;
+}
+header .navspans{
+    display: flex;
+    flex-direction: row;
+}
+header .left ul li{
+    list-style: none;
+}
+header .left ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0vh 1vw;
+}
+header .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3vh;
+}
+input.boxtext{
+    width: 286px;
+}
+.border{
+    border: 1.9px solid black;
+padding: 5px;
+border-radius: 5px;
+font-size: 18px;
+}
+button.btn{
+    cursor: pointer;
+}
+button.btn a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+button.search{
+    border: white;
+position: relative;
+right: 3vw;
+color: rgba(21, 21, 250, 0.849);
+bottom: 0.2vh;
+height: 7.3vh;
+width: 7.4vh;
+background-color: #24c824;
+border-radius: 200vh;
+}
+.content{
+    margin: auto;
+    width: 80%;
+}
+div.visual{
+    display: flex;
+align-items: center;
+margin-top: 5vh;
+border-radius: 5px;
+margin-bottom: 3vh;
+}
+.leftbox{
+    display: flex;
+flex-direction: column;
+font-size: 3vh;
+padding: 36px;
+}
+.paragraph{
+    margin-top: 3vh;
+}
+.rightbox img{
+    height: 35vh;
+    border: 2px solid black;
+    margin: 3vh;
+}
+.font3{
+    font-style: var(--font-3);
+}
+div.secondbox{
+    margin-left: 80px;
+margin-bottom: 31px;
+}
+div.navs1{
+    display: flex;
+flex-direction: column;
+margin-top: 3vh;
+width: 14vw;
+}
+.firstchild1 img{
+    position: relative;
+right: 0.7vh;
+height: 16vw;
+}
+/* .secondchild{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+width: 22vw;
+align-items: center;
+position: relative;
+right: 1vw;
+margin-left: 0;
+} */
+div.logos{
+    display: flex;
+float: right;
+position: relative;
+bottom: 6vh;
+left: 7vh;
+}
+div.logos img{
+    margin: 0vh 0.4vw;
+    height: 4.4vh;
+}
+
+.Resulttext{
+    margin-top: 4vh;
+    margin-left: 6vw;
+}
+
+.form{
+    background-image: url(/Images/vicko-mozara-m82uh_vamhg-unsplash.jpg);
+    margin-top: -2vh;
+}
+/* input{
+    
+} */
+textarea{
+    font-family: var(--font-3);
+    width: 49.4%;
+height: 40vh;
+margin-top: 1vh;
+    font-size: 2.9vh;
+    padding: 1vh;
+
+}
+.header{
+    position: relative;
+top: 4vh;
+left: 3vw;
+}
+form{
+    margin: 4vh 3vw;
+}
+.inputbox{
+    width: 50%;
+margin: 2vh 0vw;
+font-family: var(--font-3);
+font-size: 2.9vh;
+padding: 0.4vh;
+}
+.h1-margin{
+    width: 92vw;
+margin: 2vh 0vw;
+font-family: var(--font-3);
+font-size: 4vh;
+padding: 0.4vh;
+}
+section{
+    overflow: hidden;
+}
+.bformright{
+    margin: 0vh 3.1vw;
+    margin-bottom: 0vh;
+margin-bottom: 0vh;
+font-family: var(--font-3);
+padding: 0px 2px;
+height: 5vh;
+border-radius: 1vh;
+color: gray;
+border: 2px solid gray;
+position: relative;
+bottom: 2vh;
+margin-bottom: 20vh;
+width: 10vh;
+font-size: 2.6vh;
+}
+
+a h2{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.secondchild a{
+    text-decoration: none;
+}
+.babycenter{
+    display: flex;
+Justify-content: center;
+height: 60vh;
+overflow: hidden;
+}
+.babycenter img{
+    height: 212vh;
+    position: relative;
+    bottom: 58vh;
+}
+.topic{
+    margin: 7vh 0vh 0vh 2vh;
+    padding-top: 3vh;
+}
+
+div.lefttext{    
+    font-size: 15px;
+line-height: 30px;
+position: relative;
+left: 20%;
+margin-top: 10px;
+}
+h2{
+    font-size: 19px;
+}
+div.righttext{
+    display: flex;
+float: right;
+position: relative;
+right: 22%;
+bottom: 54px;
+}
+.logos{
+    height: 4vh;
+}
+
+.propyl{
+    text-align: center;
+margin-top: 22px;
+font-size: 5.9vh;
+}
+p.content{
+    width: 60%;
+}
+hr.linemargin{
+    margin: auto;
+    width: 80%;
+    margin: 2vh auto;
+
+}
+.zezyne{
+    display: flex;
+margin: 0vh 14vw;
+position: relative;
+left: -6.3vw;
+}
+div.secondchild1{
+    width: 235px;
+}
+.grey{
+    color: gray;
+font-family: var(--font-3);
+width: 23vw;
+}
+p.text-blue{
+    color: #2bd3e3;
+cursor: pointer;
+}
+h2{
+    margin: 11px 0;
+}
+h1.content{
+    margin-top: 15px;
+margin-bottom: -26px;
+font-size: 30px;
+}
+div.medium-spans{
+    margin-bottom: -6.5vw;
+}

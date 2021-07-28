@@ -1,0 +1,34 @@
+div.nav{
+    position: absolute;
+    left: 77vw;
+    bottom: 93vh;
+    font-size: 3.5vh;
+    color: grey;
+}
+h1{
+    color: green;
+}
+img.image{
+    height: 60vh;
+    border-radius: 200px;
+}
+.headingtr{
+    position: relative;
+    left: 24vw;
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    height: 19vh;
+    padding-left: 2vw;
+}
+.headingtext{
+    border: 2px solid black;
+    padding-left: 2vw;
+    text-align: center;
+    height: 13vh;
+    padding-right: 4vw;
+}
+.horizontalline{
+    margin: auto;
+    width: 80%;
+}

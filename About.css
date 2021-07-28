@@ -1,0 +1,22 @@
+.cyclos{
+    height: 55vw;
+border-bottom: 2px solid #f0efef;
+}
+.grey{
+    width: 22vw;
+}
+div.visual{
+    background-image: none;
+}
+h1{
+    font-size: 45px;
+}
+.paragraph{
+    font-size: 18px;
+}
+div.visual{
+    border-bottom: none;
+}
+img.frontimage{
+    border-radius: 200vh;
+}

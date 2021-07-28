@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-3);
+    background-color: #f7f4f4;
+}
+header{
+    display: flex;
+/* background-color: #4d9df2;
+ */
+ background-color: #49a5e8;
+padding: 12vh;
+justify-content: space-around;
+border-bottom: 1px solid #f7f1ef;
+height: 50px;
+}
+header .left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--font-1);
+}
+
+header .Someit{
+    position: relative;
+bottom: 5vh;
+}
+header .Someit-text{
+    font-size: 8vh;
+color: white;
+text-decoration: none;
+font-family: var(--font-4);
+font-weight: bolder;
+
+}
+header .navspans{
+    display: flex;
+    flex-direction: row;
+}
+header .left ul li{
+    list-style: none;
+}
+header .left ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    margin: 0vh 1vw;
+    transition-property: all;
+    padding: 2px;
+}
+header .left ul a:hover{
+    border-bottom: 2px solid white;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+header .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3vh;
+}
+input.boxtext{
+    width: 22vw;
+}
+.border{
+    border: 1.9px solid black;
+padding: 5px;
+border-radius: 5px;
+font-size: 18px;
+}
+button.btn{
+    cursor: pointer;
+}
+button.btn a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+button.search{
+    border: white;
+position: relative;
+right: -21vw;
+color: rgba(83, 83, 89, 0.85);
+bottom: 50px;
+height: 56px;
+width: 56px;
+background-color: #f7d13c;
+border-radius: 200vh;
+}
+button.search :hover{
+    color: black;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+}
+button i.fa{
+    font-size: 23px;
+}
+
+.content{
+    margin: auto;
+    width: 80%;
+}
+div.visual{
+    display: flex;
+align-items: center;
+/* background-image: url(Images/Super\ Light\ Gradient\ Background.webp); */
+/* background: transparent; */
+margin-top: 5vh;
+border-radius: 5px;
+margin-bottom: 3vh;
+background-size: 80vw;
+border-bottom: 2px solid #f0eaea;
+}
+.leftbox{
+    display: flex;
+flex-direction: column;
+font-size: 3vh;
+padding: 36px;
+}
+.paragraph{
+    margin-top: 3vh;
+}
+.rightbox img{
+    height: 40vh;
+   border: 2px solid #f0eaea;
+margin: 3vh;
+opacity: 0.9;
+/* border-radius: 200vh; */
+/* box-shadow: 6px 8px 12px grey; */
+}
+.font3{
+    font-style: var(--font-3);
+}
+div.secondbox{
+    padding: 3vh;
+}
+div.navs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    align-items: center;
+}
+.firstchild img{
+    height: 35vh;
+}
+.secondchild{
+    display: flex;
+margin-left: 6vw;
+flex-direction: column;
+font-size: 18px;
+width: 99vw;
+position: relative;
+bottom: 21px;
+font-size: 18px;
+}
+.secondchild p{
+    color: grey;
+}
+footer{
+    padding: 23vh;
+    color: black;
+    border-bottom: 7vw solid #49a5e8;
+    text-align: center;
+
+}
+div .footerlist ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+div .footerlist ul :hover{
+    /* border-bottom: 2px solid black;
+     */
+     color:  #49a5e8;
+
+}
+div .footerlist ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+bottom: 1vw;
+}
+.footer-text{
+    position: relative;
+    right: 1vw;
+    z-index: 3;
+    bottom: 1vw;
+}
+.footer-text a{ 
+    text-decoration: none;
+    color: black;
+}
+h3{
+    color: #b7c0c6;
+text-align: center;
+margin-top: 3vw;
+font-size: 36px;
+opacity: 0.4;
+font-family: sans-serif;
+font-weight: unset;
+}
+.lines{
+    display: flex;
+    justify-content: space-around;
+}
+.horizontal-line{
+    width: 22vw;
+}
+
+
+.Resulttext{
+    margin-top: 4vh;
+    margin-left: 6vw;
+}
+
+.form{
+    background-image: url(/Images/vicko-mozara-m82uh_vamhg-unsplash.jpg);
+    margin-top: -2vh;
+}
+/* input{
+    
+} */
+textarea{
+    font-family: var(--font-3);
+    width: 49.4%;
+height: 40vh;
+margin-top: 30px;
+
+font-size: 18px;
+padding: 4vh;
+opacity: 0.9;
+
+}
+.header{
+    position: relative;
+top: 62px;
+font-size: 20px;
+text-align: center;
+left: 1vw;
+margin-bottom: 100px;
+line-height: 42px;
+
+}
+form{
+    margin-left: 28%;
+    
+}
+.inputbox{
+    width: 50%;
+margin: 2vh 0vw;
+font-family: var(--font-3);
+font-size: 2.9vh;
+padding: 3.4vh;
+}
+.h1-margin{
+    width: 92vw;
+margin: 2vh 3vw;
+font-family: var(--font-3);
+font-size: 37px;
+}
+section{
+    overflow: hidden;
+}
+.bformright{
+    margin: 0vh 3.1vw;
+    margin-bottom: 0vh;
+    margin-left: 3.1vw;
+margin-bottom: 0vh;
+margin-bottom: 40vh;
+font-family: var(--font-3);
+position: relative;
+top: 17px;
+
+color: white;
+background-color: #1f7bf0;
+border-radius: 9px;
+font-size: 17px;
+margin-left: 27.9%;
+width: 40%;
+}
+
+a h2{
+    text-decoration: none;
+    color: black;
+    
+}
+.secondchild a{
+    text-decoration: none;
+}
+.reptile-color{
+    /* background-color: seashell; */
+}
+.cyclos{
+    margin: 0vh 8vw;
+height: 81vw;
+}
+h1.content{
+    margin-top: 13px;
+margin-bottom: 1px;
+font-size: 31px;
+position: relative;
+left: -6%;
+top: 21px;
+}
+.zezyne{
+    display: flex;
+position: relative;
+left: -6%;
+margin: 0vh 2vw;
+}
+div.navs1{
+    display: flex;
+flex-direction: column;
+margin-top: 3vh;
+width: 14vw;
+}
+
+/* Setting CSS properties of Contact page.*/
+.consequtive{
+display: flex;
+flex-direction: column;
+}
+.header{
+    position: relative;
+    top: 62px;
+    left: -2.6vw;
+    font-size: 20px
+}
+.B-form{
+    position: relative;
+right: -2%;
+}
+.navs1-top{
+    top: 64px;
+position: relative;
+}
+.zezyne-1{
+    top: -5px;
+}
+h1.content-1{
+    color: #2bd3e3;
+text-align: center;
+left: 0%;color: #2bd3e3;
+text-align: center;
+left: 0%;
+margin-top: 7vw;
+}
+h2.top{
+    margin: 18px 0;
+}
+/* .upper-border{
+    border-top: 1.99px solid black;
+} */
+.firstchild1{
+    width: 23vw;
+height: 16vw;
+overflow: hidden;
+}
+div .Fast-and-Furious-6{
+right: 9.7vh;
+}
+div .Deadpool{
+    height: 13vw;
+}
+div .Jumanji {
+    right: 56px;
+}
+div .Kingsman-The-Secret-Service{
+    right: 6vh;
+}
+div .Captain-America{
+    right: 6vh;
+}
+div .The-martian{
+    height: 16vw;
+}
+div .spiderman{
+    height: 16vw;
+}
+img.TheRoadWithin{
+    right: 8.7vh;
+}
+img.lane{
+    height: 18vw;
+}
+img.Quiteplace{
+    height: 14.2vw;
+}
+div .Loki{
+    right: 6.7vh;
+}
+img.The-mummy{
+    height: 14vw;
+}
+div.medium{
+    margin-bottom: -29.5vw;
+}
+div.medium-bottom{
+    margin-top: 5vw;
+}
+.downquark{
+    margin-top: 1vw;
+}
+div.endcyclo{
+    height: 84vw;
+margin-top: -10vw;
+border-bottom: 2px solid #f4eeee;
+}
+.end-border{
+    border-bottom: 2px solid #eee;
+}
+
+.navlogos img{
+    height: 25px;
+margin-bottom: 1vw;
+margin-right: 0.9vw;
+cursor: pointer;
+transition: all;
+}
+.navlogos :hover{
+    height: 27px;
+    transition: all 0.1s ease-in-out
+    
+}
+ .Golivecyclo{
+    height: 82vw;
+} 
+.text-blue{
+    color: #2bd3e3;
+}
+p.results{
+    color: #2bd3e3;
+
+}
